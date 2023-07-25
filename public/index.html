@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <!-- link fontawesome icons file -->
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -158,10 +159,11 @@
 
     <!-- main section -->
     <main class="max-w-screen-xl mx-auto px-10">
+        <!-- deal sectoin -->
         <section class="py-10">
             <div class="flex items-center justify-between flex-col md:flex-row gap-3">
                 <div class="flex flex-col gap-2 basis-1/2">
-                    <h3 class="text-4xl text-gray-950 font-bold">Deal of the day</h3>
+                    <h3 class="text-4xl text-gray-950 font-bold mb-4">Deal of the day</h3>
                     <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
@@ -203,7 +205,33 @@
                         <span class="text-red-200"><i class="fas fa-star"></i></span>
                         <span class="text-red-200"><i class="fas fa-star"></i></span>
                     </div>
-                    <span class="text-red-500">Details</span>
+                    <span class="text-red-500 cursor-pointer" onclick="my_modal_1.showModal()">Details</span>
+                    <dialog id="my_modal_1" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <div
+                                class="flex flex-col justify-center items-center bg-white p-10 rounded-lg md:min-w-[400px]">
+                                <div class="py-8">
+                                    <img src="./images/fruit1.png" alt="">
+                                </div>
+                                <h4 class="text-1.5 font-semibold w-full border-b border-b-gray-200 text-center pb-5">
+                                    12.90$
+                                    -
+                                    18.85$</h4>
+                                <span class="text-gray-500">Apples</span>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-200"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-200"><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="flex gap-5 mt-4">
+                                    <button class="btn btn-outline btn-error">Close</button>
+                                    <button class="btn btn-error">Buy now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </dialog>
                 </div>
                 <div
                     class="basis-full md:basis-[calc(50%_-_20px)] lg:basis-[calc(25%_-_20px)] flex items-center justify-center flex-col gap-2 border border-[rgba(18,_18,_18,_0.10)] rounded-lg p-10">
@@ -220,7 +248,33 @@
                         <span class="text-red-200"><i class="fas fa-star"></i></span>
                         <span class="text-red-200"><i class="fas fa-star"></i></span>
                     </div>
-                    <span class="text-red-500">Details</span>
+                    <span class="text-red-500 cursor-pointer" onclick="my_modal_2.showModal()">Details</span>
+                    <dialog id="my_modal_2" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <div
+                                class="flex flex-col justify-center items-center bg-white p-10 rounded-lg md:min-w-[400px]">
+                                <div class="py-8">
+                                    <img src="./images/fruit2.png" alt="">
+                                </div>
+                                <h4 class="text-1.5 font-semibold w-full border-b border-b-gray-200 text-center pb-5">
+                                    12.90$
+                                    -
+                                    18.85$</h4>
+                                <span class="text-gray-500">Apples</span>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-200"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-200"><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="flex gap-5 mt-4">
+                                    <button class="btn btn-outline btn-error">Close</button>
+                                    <button class="btn btn-error">Buy now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </dialog>
                 </div>
                 <div
                     class="basis-full md:basis-[calc(50%_-_20px)] lg:basis-[calc(25%_-_20px)] flex items-center justify-center flex-col gap-2 border border-[rgba(18,_18,_18,_0.10)] rounded-lg p-10">
@@ -237,7 +291,34 @@
                         <span class="text-red-200"><i class="fas fa-star"></i></span>
                         <span class="text-red-200"><i class="fas fa-star"></i></span>
                     </div>
-                    <span class="text-red-500">Details</span>
+
+                    <span class="text-red-500 cursor-pointer" onclick="my_modal_3.showModal()">Details</span>
+                    <dialog id="my_modal_3" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <div
+                                class="flex flex-col justify-center items-center bg-white p-10 rounded-lg md:min-w-[400px]">
+                                <div class="py-8">
+                                    <img src="./images/fruit3.png" alt="">
+                                </div>
+                                <h4 class="text-1.5 font-semibold w-full border-b border-b-gray-200 text-center pb-5">
+                                    12.90$
+                                    -
+                                    18.85$</h4>
+                                <span class="text-gray-500">Apples</span>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-200"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-200"><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="flex gap-5 mt-4">
+                                    <button class="btn btn-outline btn-error">Close</button>
+                                    <button class="btn btn-error">Buy now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </dialog>
                 </div>
                 <div
                     class="basis-full md:basis-[calc(50%_-_20px)] lg:basis-[calc(25%_-_20px)] flex items-center justify-center flex-col gap-2 border border-[rgba(18,_18,_18,_0.10)] rounded-lg p-10">
@@ -254,7 +335,34 @@
                         <span class="text-red-200"><i class="fas fa-star"></i></span>
                         <span class="text-red-200"><i class="fas fa-star"></i></span>
                     </div>
-                    <span class="text-red-500">Details</span>
+
+                    <span class="text-red-500 cursor-pointer" onclick="my_modal_4.showModal()">Details</span>
+                    <dialog id="my_modal_4" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <div
+                                class="flex flex-col justify-center items-center bg-white p-10 rounded-lg md:min-w-[400px]">
+                                <div class="py-8">
+                                    <img src="./images/fruit4.png" alt="">
+                                </div>
+                                <h4 class="text-1.5 font-semibold w-full border-b border-b-gray-200 text-center pb-5">
+                                    12.90$
+                                    -
+                                    18.85$</h4>
+                                <span class="text-gray-500">Apples</span>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-500"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-200"><i class="fas fa-star"></i></span>
+                                    <span class="text-red-200"><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="flex gap-5 mt-4">
+                                    <button class="btn btn-outline btn-error">Close</button>
+                                    <button class="btn btn-error">Buy now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </dialog>
                 </div>
             </div>
             <div class="flex justify-center py-10">
@@ -361,6 +469,93 @@
                             <span
                                 class="bg-white p-1 rounded-full text-red-500 w-9 h-9 flex items-center justify-center cursor-pointer"><i
                                     class="fab fa-youtube"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Choose section -->
+        <section class="max-w-screen-xl mx-auto py-10">
+            <div class="w-full md:w-1/2 md:ml-[50%] md:translate-x-[-50%] text-center">
+                <h2 class="text-5xl mb-4 font-bold">Why Choose Us</h2>
+                <p class="text-gray-500">Contrary to popular belief, is not simply random text. It has roots in a piece
+                    of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="flex items-start justify-between flex-wrap my-10">
+                <div class="basis-[100%] md:basis-[50%] lg:basis-[33.33%] pr-5">
+                    <div class="flex items-center justify-center md:justify-between gap-5 md:mb-5 flex-col md:flex-row">
+                        <div class="w-14 h-14 rounded-full bg-gray-100 flex items-center justify-center">
+                            <span><i class="fal fa-heart"></i></span>
+                        </div>
+                        <div>
+                            <h3
+                                class="relative text-center md:text-left after:absolute after:w-20 after:h-1 after:bg-gray-200 after:left-0 after:top-7 after:ml-[50%] md:after:ml-[0] after:translate-x-[-50%] md:after:translate-x-[-0] after:rounded-full mb-4">
+                                Fresh is Best</h3>
+                            <p class="text-center md:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center md:justify-between gap-5 md:mb-5 flex-col md:flex-row">
+                        <div class="w-14 h-14 rounded-full bg-gray-100 flex items-center justify-center">
+                            <span><i class="fal fa-heart"></i></span>
+                        </div>
+                        <div>
+                            <h3
+                                class="relative text-center md:text-left after:absolute after:w-20 after:h-1 after:bg-gray-200 after:left-0 after:top-7 after:ml-[50%] md:after:ml-[0] after:translate-x-[-50%] md:after:translate-x-[-0] after:rounded-full mb-4">
+                                Fresh is Best</h3>
+                            <p class="text-center md:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center md:justify-between gap-5 md:mb-5 flex-col md:flex-row">
+                        <div class="w-14 h-14 rounded-full bg-gray-100 flex items-center justify-center">
+                            <span><i class="fal fa-gift"></i></span>
+                        </div>
+                        <div>
+                            <h3
+                                class="relative text-center md:text-left after:absolute after:w-20 after:h-1 after:bg-gray-200 after:left-0 after:top-7 after:ml-[50%] md:after:ml-[0] after:translate-x-[-50%] md:after:translate-x-[-0] after:rounded-full mb-4">
+                                Gift Certificates</h3>
+                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="lg:basis-[33.33%] hidden lg:block">
+                    <div>
+                        <img src="./images/whychoose1.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="basis-[100%] md:basis-[50%] lg:basis-[33.33%]">
+                    <div class="flex items-center justify-between gap-5 mb-5 md:pl-5 flex-col md:flex-row">
+                        <div class="order-2 md:order-1">
+                            <h3 class="relative text-center md:text-right after:absolute after:w-20 after:h-1 after:bg-gray-200 after:right-0 after:top-7 after:mr-[50%] md:after:mr-[0] after:translate-x-[50%] md:after:translate-x-[-0] after:rounded-full mb-4">
+                                Integrated Supplier</h3>
+                            <p class="text-center md:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="w-14 h-14 rounded-full bg-gray-100 flex items-center justify-center order-1 md:order-2">
+                            <span><i class="fal fa-fragile"></i></span>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between gap-5 mb-5 md:pl-5 flex-col md:flex-row">
+                        <div class="order-2 md:order-1">
+                            <h3 class="relative text-center md:text-right after:absolute after:w-20 after:h-1 after:bg-gray-200 after:right-0 after:top-7 after:mr-[50%] md:after:mr-[0] after:translate-x-[50%] md:after:translate-x-[-0] after:rounded-full mb-4">
+                                Sustainable Practice</h3>
+                            <p class="text-center md:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="w-14 h-14 rounded-full bg-gray-100 flex items-center justify-center order-1 md:order-2">
+                            <span><i class="fal fa-ice-cream"></i></span>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between gap-5 mb-5 md:pl-5 flex-col md:flex-row">
+                        <div class="order-2 md:order-1">
+                            <h3 class="relative text-center md:text-right after:absolute after:w-20 after:h-1 after:bg-gray-200 after:right-0 after:top-7 after:mr-[50%] md:after:mr-[0] after:translate-x-[50%] md:after:translate-x-[0] after:rounded-full mb-4">
+                                The Benefits Only</h3>
+                            <p class="text-center md:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="w-14 h-14 rounded-full bg-gray-100 flex items-center justify-center order-1 md:order-2">
+                            <span><i class="fal fa-hand-fingers-crossed"></i></span>
                         </div>
                     </div>
                 </div>
