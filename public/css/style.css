@@ -1440,6 +1440,18 @@ html {
   z-index: 1;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
+.m-\[-50px\] {
+  margin: -50px;
+}
+
+.m-\[-140px\] {
+  margin: -140px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1455,9 +1467,19 @@ html {
   margin-bottom: 1rem;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-14 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
 }
 
 .mb-5 {
@@ -1466,6 +1488,18 @@ html {
 
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mt-\[-140px\] {
+  margin-top: -140px;
+}
+
+.mt-\[-100px\] {
+  margin-top: -100px;
+}
+
+.block {
+  display: block;
 }
 
 .inline-block {
@@ -1508,32 +1542,12 @@ html {
   flex-basis: 50%;
 }
 
-.basis-full {
-  flex-basis: 100%;
-}
-
-.basis-\[200\] {
-  flex-basis: 200;
-}
-
-.basis-\[200px\] {
-  flex-basis: 200px;
-}
-
-.basis-\[\] {
-  flex-basis: ;
-}
-
-.basis-\[20\%\] {
-  flex-basis: 20%;
-}
-
 .basis-\[100px\] {
   flex-basis: 100px;
 }
 
-.basis-\[120px\] {
-  flex-basis: 120px;
+.basis-full {
+  flex-basis: 100%;
 }
 
 .-translate-y-1\/2 {
@@ -1595,10 +1609,6 @@ html {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-0 {
-  gap: 0px;
 }
 
 .overflow-hidden {
@@ -1709,6 +1719,11 @@ html {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1717,16 +1732,6 @@ html {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1794,6 +1799,14 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:inline-block {
+    display: inline-block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1821,6 +1834,10 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:basis-\[calc\(25\%_-_20px\)\] {
     flex-basis: calc(25% - 20px);
   }
