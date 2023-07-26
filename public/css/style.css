@@ -1703,6 +1703,10 @@ html {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-5 {
   left: 1.25rem;
 }
@@ -1960,6 +1964,10 @@ html {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-full {
@@ -2374,6 +2382,14 @@ html {
 
   .lg\:block {
     display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:basis-\[33\.33\%\] {
